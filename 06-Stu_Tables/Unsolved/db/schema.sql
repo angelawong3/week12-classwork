@@ -1,0 +1,13 @@
+DROP DATABASE IF EXISTS books_db;
+-- Creates the "books_db" database --
+CREATE DATABASE books_db;
+USE books_db;
+
+-- Add biography table --
+CREATE TABLE biographies (id INT,name VARCHAR(100));
+
+-- or create column using
+-- ALTER TABLE biographies ADD id INT
+
+-- show colunms in table
+SHOW COLUMNS FROM biographies;
